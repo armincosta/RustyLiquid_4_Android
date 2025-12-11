@@ -1,18 +1,27 @@
 # RustyLiquid_4_Android
 
-A Water effect simulation algorithm written in Java that can be integrated into Android mobile apps.
+This is a simple **Water ripple effect simulation algorithm** written in Java that can be easily integrated into an Android mobile app.
 
+**Sample:**
+
+<p align="center">
+	<img src="https://www.seesolutions.it/images/RustyLiquid_4_Android/RustyLiquid_4_Android_sim.png" width="50%" height="%">
+</p>
+
+
+ 
 The source code is published under the GNU GENERAL PUBLIC LICENSE Version 3.
 
-This is the souce code also of the water effect algorithm developed for the RustyLiquid Water&Sound application developed
+This is the source code also of the water effect algorithm in the 'RustyLiquid' Water&Sound application developed
 by SEE Solutions.
 
-A preview and download of RustyLiquid V1.0 is available from the SEE Solutions website at:
+A preview of RustyLiquid V1.0 is available at:
 
-http://www.seesolutions.it/lang_en/index_download.html
+[SEE Solutions website](http://www.seesolutions.it)
 
 
-Author: Armin Costa
-e-mail: armincosta@hotmail.com
+**Author:** Armin Costa
+
+**e-mail:** armincosta@hotmail.com
 
 
