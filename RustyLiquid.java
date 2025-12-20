@@ -54,7 +54,7 @@ public class RustyLiquid implements Runnable {
     public int w = 512;
     public int h = 512;
     public static int buffer[] = null, black_buffer[] = null,
-            curr_pix[] = null;
+    private int curr_pix[] = null;
 
 
     private boolean buffers_constructed = false;
@@ -67,7 +67,6 @@ public class RustyLiquid implements Runnable {
     public int[] pix_; // buffer for picture update
 
 
-    // VARS
     public int d_f = 4; //30; // deep factor
 
     public int w_depth1 = 4700; // drop
@@ -82,8 +81,6 @@ public class RustyLiquid implements Runnable {
     // setup initial color
     private final int paintColor = Color.BLACK;
     private final int paintColorDiscovery = 0x3F51B5;
-
-
 
     private Thread t; // thread
 
@@ -112,9 +109,7 @@ public class RustyLiquid implements Runnable {
     public boolean init(int[] pixels, int width, int height) {
         by = "coded by Armin Costa";
 
-        if ((by != null)) { // by != null) && (by.equals("www.artcosta.com")
-            // pic = this.getParameter("picture");
-            pic = "rusty.jpg";
+        if ((by != null)) {
             if (pic == null) {
                 pic = "rusty.jpg";
             }
@@ -305,9 +300,7 @@ public class RustyLiquid implements Runnable {
                     int tmpY;
                     int tmp2;
 
-
                     tmp2 = tmp;
-
 
                     if ((tmp2 >= bs) || (tmp2 <= 0)) {
                         // prevent array index out of bounds
@@ -315,7 +308,6 @@ public class RustyLiquid implements Runnable {
 
                                 buffer[tmp2] = 0xFF000000 | (r << 16)
                                         | (g << 8) | b;// paint pixel at offset
-                                // tmp2
 
                     }
                     // increment one pixel
